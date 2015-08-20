@@ -21,7 +21,7 @@ describe('Thermostat', function(){
 
     it('temperature can be incrementally increased', function(){
       thermostat.raise();
-      expect(thermostat.temperature).toEqual(21);
+      expect(thermostat.temperature).toBe(21);
     });
 
     it('temperature can be incrementally decreased', function(){

@@ -8,6 +8,13 @@ thermostat = new Thermostat();
 
   setTempColor();
 
+  $.get('http://api.openweathermap.org/data/2.5/weather?q=Dewsbury&units=metric&APPID=f46b9c5aef58799f2f61b6c7f003f5e8', function(data){
+
+    $('h2').text("The temperature in " + data.name + " is " + Math.round(data.main.temp) + "\xBAC");
+
+  });
+
+
   $('#increase').click(function(){
     thermostat.raise();
     setTempColor();
