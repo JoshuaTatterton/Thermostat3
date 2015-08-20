@@ -2,7 +2,7 @@ $( document ).ready(function() {
 thermostat = new Thermostat();
 
   var setTempColor = function(){
-    $('#temperature').html(thermostat.temperature);
+    $('#temperature').html(thermostat.temperature + "\xBAC");
     $('#temperature').css("color", thermostat.tempColor);
   }
 

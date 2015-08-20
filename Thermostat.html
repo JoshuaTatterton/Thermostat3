@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <title>Thermostat</title>
 </head>
 
 <body>
-
+<img src="http://images.clipartpanda.com/weather-clip-art-weather_tools.gif">
   <h1 id="temperature"></h1>
-  <button type="button" id="increase">+</button>
+<div class=container> <button type="button" id="increase">+</button>
   <button type="button" id="decrease">-</button>
   <button type="button" id="reset">reset</button>
-  <input type="checkbox" id="powerSave" checked > Power Save<br />
+  <input type="checkbox" id="powerSave" checked > Power Save</div>
   <h2></h2>
-  Enter your city: <input type="text" id="cityName">
-  <button type="button" id="submitLocation">Submit Location</button>
+  <div class=container>Enter your city: <input type="text" id="cityName">
+  <button type="button" id="submitLocation">Submit Location</button></div>
   <h3></h3>
 </body>
 <script type="text/javascript" src="src/Thermostat.js"></script>

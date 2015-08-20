@@ -1,0 +1,44 @@
+body {
+  width: 500px ;
+  margin: 0 auto;
+  /*border: 3px solid black;*/
+  border-style: solid;
+  border-width: 27px;
+  display: block;
+  -moz-border-image: url(http://www.w3.org/TR/css3-background/border.png) 27 repeat;
+  -webkit-border-image: url(http://www.w3.org/TR/css3-background/border.png) 27 repeat;
+  -o-border-image: url(http://www.w3.org/TR/css3-background/border.png) 27 repeat;
+  border-image: url(http://www.w3.org/TR/css3-background/border.png) 27 fill repeat;
+  overflow: auto;
+  background-color: lightskyblue;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: mediumorchid;
+  text-align: center
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: purple;
+  text-align: center
+}
+
+.container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  height: 250px;
+  width: 300px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
